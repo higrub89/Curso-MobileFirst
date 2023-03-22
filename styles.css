@@ -38,12 +38,14 @@ header {
   text-align: center;
   background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
+
 header img {
   width: 150px;
   height: 24px;
   margin-top: 60px;
   align-self: center;
 }
+/* esta seccion es toda la parte del header*/
 .header--title--container {
   width: 90%;
   min-width: 288px;
@@ -65,4 +67,30 @@ header img {
   font-weight: 500;
   line-height: 1.8rem;
   color: var(--sotf-orange);
+}
+.header--title--container .header--button {
+  position: absolute;
+  left: calc(50% - 118px);
+  top: 270px;
+  display: block;
+  margin-top: 35px;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  background-color: var(--off-white);
+  /*Sombras:*/
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--black);
+}
+.header--button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url("./assets/icons/vector.svg");
 }
