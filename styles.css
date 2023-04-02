@@ -402,7 +402,7 @@ main {
 }
 
 /* tarjetas de la sección de planes*/
-.plans-container--card {
+.plans-container--card-anual {
   position: relative;
   width: 70%;
   min-width: 230px;
@@ -410,8 +410,33 @@ main {
   height: 250px;
   margin: 50px auto 0;
   padding: 0 15px;
-  background-color: var(--just-white);
   border-radius: 15px;
+  background-color: var(--just-white);
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plans-container--card-plus {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  border-radius: 15px;
+  background-color: rgb(221, 230, 253);
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.plans-container--card-basic {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  border-radius: 15px;
+  background-color: rgb(255, 215, 215);
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 .recommended {
@@ -444,8 +469,8 @@ main {
   font-size: 1.2rem;
   font-weight: 300;
   position: absolute;
-  left: calc(50% - 8px / 2 - 41px);
-  top: calc(50% - 15px / 2 - 95px);
+  left: calc(50% - 41px);
+  top: calc(50% - 15px / 2 - 80px);
 }
 .plan-card--saving {
   font-size: 1.2rem;
